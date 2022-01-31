@@ -1,10 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Library" />
 
-  &#xa0;
-
-  <!-- <a href="https://library.netlify.app">Demo</a> -->
-</div>
 
 <h1 align="center">Library</h1>
 
@@ -39,12 +33,20 @@
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="https://github.com/WendSant" target="_blank">Author</a>
 </p>
+<br>
+<div align="center" id="top"> 
+	<img alt="Img-api-library" src="https://user-images.githubusercontent.com/79418546/151883598-f85592dc-4377-4eed-b3be-7f366f2678ea.png">
 
+
+  &#xa0;
+
+  <!-- <a href="https://library.netlify.app">Demo</a> -->
+</div>
 <br>
 
 ## :dart: About ##
 
-Describe your project
+Meu primeiro projeto utilizando DRF seguindo o video do Pedro Impulcetto onde vimos como desenvolver uma api simples para adicionar livros. Link do vídeo: https://www.youtube.com/watch?v=wtl8ZyCbTbg&t=2s
 
 ## :rocket: Technologies ##
 
