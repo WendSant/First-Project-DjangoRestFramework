@@ -34,12 +34,10 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/WendSant" target="_blank">Author</a>
 </p>
 
 <br>
@@ -48,47 +46,58 @@
 
 Describe your project
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Python 3.8](https://expo.io/)
-- [DjangoRestFramework](https://nodejs.org/en/)
+- [Python 3.8](https://www.python.org/downloads/release/python-3810/)
+- [DjangoRestFramework](https://www.django-rest-framework.org/)
 
 ## :white_check_mark: Requirements ##
-
-<!-- Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed. -->
+- Python 3.8
+- Pip instalado
 
 ## :checkered_flag: Starting ##
 
-<!-- ```bash -->
-<!-- # Clone this project -->
-<!-- # $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/library -->
+```bash
+Clone o projeto: 
+$ git clone https://github.com/WendSant/First-Project-DjangoRestFramework
 
-<!-- # Access -->
-<!-- # $ cd library -->
+Primeiramente tenha uma versão do python igual ou  acima da versão 3.8 instalado no seu ambiente
 
-<!-- # Install dependencies -->
-<!-- # $ y;arn -->
+Se não tiver o pip instalado faça a instalação
 
-<!-- # Run the project -->
-<!-- # $ yarn start -->
+$ sudo apt-get install python-pip
 
-<!-- # The server will initialize in the <http://localhost:3000> -->
-<!-- ``` -->
+No diretorio do projeto e com pip instalado comece a instalar o virtualenv 
+
+$ pip install virtualenv
+
+Crie a venv utilizando o virtualenv com o seguinte comando: 
+
+$ virtualenv venv
+
+Após isso é hora de iniciar o ambiente virtual
+
+$ source venv/bin/activate 
+
+Agora rode esse comando para instalar todos os requirements
+
+$ pip install -r requirements.txt 
+
+A aplicação esta pronta para funcionar, agora basta você iniciá-la com esse comando: 
+
+$ python3 manage.py runserver 
+
+Deve ser lembrado que alguns comandos podem mudar de acordo com as versões instaladas em seu ambiente
+```
 
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{WendSant}}</a>
+Made with :heart: by <a href="https://github.com/WendSant" target="_blank">WendSant</a>
 
 &#xa0;
 
